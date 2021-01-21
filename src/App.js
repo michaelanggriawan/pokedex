@@ -23,7 +23,7 @@ function App() {
         <Container>
           <Header />
           <Switch>
-            <Route exact path="/" render={() => <PokemonListPage />} />
+            <Route exact path="/" component={PokemonListPage} />
             <Route path="/pokemon-detail/:name" component={PokemonDetailPage} />
             <Route path="/my-pokemon" component={MyPokemonDetailPage} />
           </Switch>
