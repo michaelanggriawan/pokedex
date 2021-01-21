@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <Container>
-      <Link to='/' className="link">
+      <Link to="/pokedex" className="link">
         <span>HOME</span>
       </Link>
       <div className="line-up" />
-      <Link to='/my-pokemon' className="link">
+      <Link to="/my-pokemon" className="link">
         <span>MY POKEMON</span>
       </Link>
     </Container>
