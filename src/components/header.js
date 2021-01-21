@@ -8,7 +8,7 @@ function Navbar() {
   const history = useHistory();
   const title = location.pathname.toLowerCase().split('/');
   const headerText = () => {
-    if (title[1] === '') return <h2>POKEMON LIST</h2>;
+    if (title[1] === 'pokedex') return <h2>POKEMON LIST</h2>;
     if (title[1] === 'pokemon-detail') return <h2>POKEMON DETAIL</h2>;
     if (title[1] === 'my-pokemon') return <h2>MY POKEMON LIST</h2>;
   };
