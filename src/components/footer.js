@@ -5,11 +5,11 @@ function Footer() {
   return (
     <Container>
       <Link to='/' className="link">
-        <a>HOME</a>
+        <span>HOME</span>
       </Link>
       <div className="line-up" />
       <Link to='/my-pokemon' className="link">
-        <a>MY POKEMON</a>
+        <span>MY POKEMON</span>
       </Link>
     </Container>
   );
